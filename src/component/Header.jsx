@@ -1,9 +1,9 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import { IoLocation, IoSearch } from 'react-icons/io5'
+import { IoMenu } from 'react-icons/io5'
 import AnimationText from './AnimationText'
 
 export default function Header() {
+
 
     return (
 
@@ -16,10 +16,7 @@ export default function Header() {
 
                 {/* dekstop */}
                 <div className='xl:flex hidden xl:gap-20'>
-                    <div className='flex relative items-center w-[500px] h-10'>
-                        <IoSearch className='absolute right-8 text-gray-500 text-xl font-bold' />
-                        <input className='w-full h-full border-2 transition-all duration-100 hover:bg-gray-100 border-gray-300 outline-none rounded-full py-2 px-10 focus:border-[3px] focus:border-blue-500' type="text" placeholder='Lagi Mau Makan apa?'/>
-                    </div>
+                    
                 </div>
 
                 {/* mobile */}
@@ -28,6 +25,9 @@ export default function Header() {
                         <span className='bg-blue-500 w-full h-[6px] rounded-full'></span>
                         <span className='bg-blue-500 w-full h-[6px] rounded-full'></span>
                     </button>
+                    <div className=''>
+
+                    </div>
                 </div>
             </div>
         </>
